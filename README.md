@@ -1,1 +1,1 @@
-# Latihan-Tabel-Web-1-HTML
+# Latihan-Web-Teknologi
