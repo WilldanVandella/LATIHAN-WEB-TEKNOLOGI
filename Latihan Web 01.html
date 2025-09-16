@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Sederhana</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    .wrapper {
+      max-width: 900px;
+      width: 100%;
+      border: 1px solid orange;
+    }
+    header, nav, footer {
+      text-align: center;
+      padding: 15px;
+      border-bottom: 1px solid orange;
+    }
+    header {
+      background-color: #ffe4b5;
+      font-weight: bold;
+      min-height: 30px;
+    
+    }
+    nav {
+      background-color: #dbe9ff;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #ffe4b5;
+      font-weight: bold;
+      border-top: 1px solid orange;
+    }
+    .container {
+      display: flex;
+      min-height: 250px;
+    }
+    .content {
+      flex: 5;
+      background-color: #f8d7da;
+      padding: 30px 40px;
+      text-align: left;
+      border-right: 1px solid orange;
+    }
+    h1 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+    margin-top: 30px;
+    }
+    p {
+      margin: 0 0 10px 0;
+      font-size: 15px;
+      line-height: 1;
+      max-width: 500px;
+    }
+    /* Menu Samping */
+    aside {
+      background-color: #D5F5E3;
+      min-height: 250px;
+      width: 130px;
+      padding: 20px;
+      text-align: left;
+    }
+    aside strong {
+      display: block;
+      margin-top: 60px;
+      margin-left: -20px;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+    aside ul {
+      margin: 0;
+      padding-left: 55px;
+      list-style-type: disc;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      HEADER
+    </header>
+
+    <nav>
+      NAVIGASI
+    </nav>
+
+    <div class="container">
+     <div class="content">
+  <h1>Heading 1</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur
+      <p>Adipiscing elit, sed do eiusmod tempor
+      <p>Incididunt ut labore et dolore magna aliqua.</p>
+
+</div>
+
+
+      <aside>
+        <strong>Menu:</strong>
+        <ul>
+          <li>Home</li>
+          <li>Berita</li>
+          <li>Layanan</li>
+          <li>Kontak</li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer>
+      FOOTER
+    </footer>
+  </div>
+</body>
+</html>
